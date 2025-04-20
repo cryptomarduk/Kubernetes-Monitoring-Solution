@@ -1,0 +1,22 @@
+{
+  "name": "monitoring-demo-app",
+  "version": "1.0.0",
+  "description": "Demo application exposing Prometheus metrics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "prometheus",
+    "metrics",
+    "monitoring"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "prom-client": "^14.2.0"
+  }
+}
